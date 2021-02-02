@@ -11,6 +11,12 @@ const TopMenu = () => {
                 <Menu.Item icon={<AppstoreOutlined />}>
                     <Link to='/'>Home</Link>
                 </Menu.Item>
+                <Menu.Item>
+                    <Link to='/odzyweczki'>Odżywki</Link>
+                </Menu.Item>
+                <Menu.Item>
+                    <Link to='/ciuszki'>Odzież</Link>
+                </Menu.Item>
             </Menu>
 
             <Menu mode='horizontal'>
